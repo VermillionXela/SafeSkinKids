@@ -1,3 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700&display=swap')
+
+@import "tailwindcss"
+
+
+@theme {
+    --font-poppins: "Poppins", sans-serif
+
+    --color-purpleMuted-500: #947D9E
+    --color-offWhite-500: #F0E9D8
+    --color-tealBlue-500: #568A97
+    --color-taupe-500: #D5C6B9
+}
+
+body {
+    @apply bg-offWhite-500 text-gray-900;
+    font-family: var(--font-poppins);
+}
