@@ -11,8 +11,8 @@ export const HomeView = () => {
             />
 
 
-            <div className="absolute top-6 left-4 w-[90%] sm:left-12 sm:w-[80%] md:max-w-xl drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)]">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-white animate-[var(--animate-fade-in)]">
+            <div className="absolute top-5 left-4 w-[90%] sm:left-12 sm:w-[80%] md:max-w-xl">
+                <h1 className="text-lg sm:text-4xl md:text-5xl font-bold leading-tight drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)] text-white animate-[var(--animate-fade-in)]">
                     Empowering kids to <br className="block sm:hidden" />
                     love the skin they’re in.
                 </h1>
