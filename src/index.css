@@ -10,6 +10,20 @@
     --color-offWhite-500: #F0E9D8;
     --color-tealBlue-500: #568A97;
     --color-taupe-500: #D5C6B9;
+
+    --animate-fade-in: fade-in 1.6s ease-out;
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
 }
 
 body {
