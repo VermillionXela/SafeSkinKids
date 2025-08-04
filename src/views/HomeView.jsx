@@ -91,7 +91,7 @@ export const HomeView = () => {
 
 
                         <section data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" className="text-center">
-                            <h2 className="text-2xl font-bold mb-2">Get Involved</h2>
+                            <h2 className="text-2xl font-bold -mt-4 mb-2">Get Involved</h2>
                             <p className="text-base mb-2">
                                 Want to bring Safe Skin Kids to your school or volunteer with us?
                             </p>

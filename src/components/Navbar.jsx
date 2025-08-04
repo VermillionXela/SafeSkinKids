@@ -26,7 +26,7 @@ export const Navbar = () => {
                     <li><a href="#" className="hover:underline">Info for Parents</a></li>
                     <li><a href="#" className="hover:underline">Our Team</a></li>
                     <li><a href="#" className="hover:underline">Volunteer</a></li>
-                    <li><a href="#" className="hover:underline">Contact</a></li>
+                    <li><a href="/SafeSkinKids/contact" className="hover:underline">Contact</a></li>
                 </ul>
             </div>
 
