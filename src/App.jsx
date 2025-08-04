@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
-
+import InfoKidsView from './views/InfoKidsView'
 import { HomeView } from './views/HomeView'
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <main >
         <Routes>
         <Route path="/SafeSkinKids/" element={<HomeView />} />
+        <Route path="/SafeSkinKids/infokids" element={<InfoKidsView />} />
         </Routes>
       </main>
     </>

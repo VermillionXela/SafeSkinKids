@@ -21,8 +21,8 @@ export const Navbar = () => {
                 </button>
 
                 <ul className="hidden md:flex gap-6 text-sm font-medium">
-                    <li><a href="#" className="hover:underline">Home</a></li>
-                    <li><a href="#" className="hover:underline">Info for Kids</a></li>
+                    <li><a href="/SafeSkinKids/" className="hover:underline">Home</a></li>
+                    <li><a href="/SafeSkinKids/infokids" className="hover:underline">Info for Kids</a></li>
                     <li><a href="#" className="hover:underline">Info for Parents</a></li>
                     <li><a href="#" className="hover:underline">Our Team</a></li>
                     <li><a href="#" className="hover:underline">Volunteer</a></li>

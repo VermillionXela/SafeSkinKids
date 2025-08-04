@@ -38,10 +38,12 @@
     }
 }
 
+
 .animate-gradient {
     background-size: 200% 200%;
     animation: gradientShift 15s ease infinite;
 }
+
 
 body {
     background-color: var(--color-offWhite-500);
