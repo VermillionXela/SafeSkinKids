@@ -27,7 +27,6 @@ function App() {
           <Route path="/infokids" element={<InfoKidsView />} />
           <Route path="/contact" element={<ContactView />} />
         </Routes>
-
       </main>
     </>
   )

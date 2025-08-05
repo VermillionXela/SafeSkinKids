@@ -38,12 +38,12 @@ export const Navbar = () => {
                     : 'opacity-0 scale-95 max-h-0 overflow-hidden'
                     } flex flex-col gap-4 mt-4 text-sm font-medium px-6`}
             >
-                <li><a href="#" className="hover:underline">Home</a></li>
-                <li><a href="#" className="hover:underline">Info for Kids</a></li>
-                <li><a href="#" className="hover:underline">Info for Parents</a></li>
-                <li><a href="#" className="hover:underline">Our Team</a></li>
-                <li><a href="#" className="hover:underline">Volunteer</a></li>
-                <li><a href="#" className="hover:underline">Contact</a></li>
+                    <li><Link to="/" className="hover:underline">Home</Link></li>
+                    <li><Link to="/infokids" className="hover:underline">Info for Kids</Link></li>
+                    <li><Link to="#" className="hover:underline">Info for Parents</Link></li>
+                    <li><Link to="/team" className="hover:underline">Our Team</Link></li>
+                    <li><Link to="#" className="hover:underline">Volunteer</Link></li>
+                    <li><Link to="/contact" className="hover:underline">Contact</Link></li>
             </ul>
         </nav>
     )
