@@ -9,6 +9,7 @@ import InfoKidsView from './views/InfoKidsView'
 import { HomeView } from './views/HomeView'
 import { ContactView } from './views/ContactView'
 
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -16,17 +17,17 @@ function App() {
       once: true
     })
   }, [])
-  
+
   return (
     <>
       <Navbar />
-
       <main >
         <Routes>
-        <Route path="/SafeSkinKids/" element={<HomeView />} />
-        <Route path="/SafeSkinKids/infokids" element={<InfoKidsView />} />
-        <Route path="/SafeSkinKids/contact" element={<ContactView />} />
+          <Route path="/" element={<HomeView />} />
+          <Route path="/infokids" element={<InfoKidsView />} />
+          <Route path="/contact" element={<ContactView />} />
         </Routes>
+
       </main>
     </>
   )
