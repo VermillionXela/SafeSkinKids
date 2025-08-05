@@ -29,22 +29,18 @@ export const Navbar = () => {
                     <li><Link to="#" className="hover:underline">Volunteer</Link></li>
                     <li><Link to="/contact" className="hover:underline">Contact</Link></li>
                 </ul>
-
             </div>
 
-            <ul
-                className={`transition-all duration-300 ease-in-out transform origin-top md:hidden ${isMenuOpen
-                    ? 'opacity-100 scale-100 max-h-96 py-4'
-                    : 'opacity-0 scale-95 max-h-0 overflow-hidden'
-                    } flex flex-col gap-4 mt-4 text-sm font-medium px-6`}
-            >
+            {isMenuOpen && (
+                <ul className="flex flex-col gap-4 mt-4 text-sm font-medium px-6 md:hidden animate-fade-in">
                     <li><Link to="/" className="hover:underline">Home</Link></li>
                     <li><Link to="/infokids" className="hover:underline">Info for Kids</Link></li>
                     <li><Link to="#" className="hover:underline">Info for Parents</Link></li>
                     <li><Link to="/team" className="hover:underline">Our Team</Link></li>
                     <li><Link to="#" className="hover:underline">Volunteer</Link></li>
                     <li><Link to="/contact" className="hover:underline">Contact</Link></li>
-            </ul>
+                </ul>
+            )}
         </nav>
     )
 }
