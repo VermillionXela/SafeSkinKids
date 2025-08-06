@@ -8,6 +8,7 @@ import { useEffect } from 'react'
 import InfoKidsView from './views/InfoKidsView'
 import { HomeView } from './views/HomeView'
 import { ContactView } from './views/ContactView'
+import { TeamView } from './views/TeamView'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/" element={<HomeView />} />
           <Route path="/infokids" element={<InfoKidsView />} />
           <Route path="/contact" element={<ContactView />} />
+          <Route path="/team" element={<TeamView />} />
         </Routes>
       </main>
     </>
