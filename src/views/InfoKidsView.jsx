@@ -1,6 +1,6 @@
 import SSKBubbles from "../assets/SSK-bubbles.jpg"
 
-export default function InfoKidsView() {
+export const InfoKidsView = () => {
     const topics = [
         {
             icon: "☀️",
@@ -36,15 +36,13 @@ export default function InfoKidsView() {
 
     return (
         <div className="relative flex flex-col items-center bg-[#F0E9D8] overflow-hidden min-h-screen">
-
             <section className="w-full max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-end gap-6 px-4 pb-8 pt-12 relative z-10 animate-[fade-in_1.5s_ease-out]">
-
                 <div className="flex-1 text-center md:text-center">
-                    <h1 className="text-[#947D9E] text-2xl sm:text-4xl lg:text-5xl font-bold whitespace-nowrap mb-6">
+                    <h1 className="text-[#947D9E] text-2xl sm:text-4xl lg:text-5xl font-bold whitespace-nowrap mb-6 -mt-4">
                         Welcome to <span className="whitespace-nowrap">Safe Skin Kids!</span>
                     </h1>
 
-                    <div className="bg-white/20 backdrop-blur-md rounded-xl shadow-md p-6 md:p-8 text-gray-800 text-base leading-relaxed max-w-prose mx-auto md:mx-0">
+                    <div className="bg-white/70 backdrop-blur-md rounded-xl shadow-md p-6 md:p-8 text-gray-800 text-base leading-relaxed max-w-prose mx-auto md:mx-0">
                         <p className="mb-4">
                             Want to learn how to take care of your skin, hair, and nails? Join Safe Skin Kids,
                             where learning is hands-on, fun, and all about YOU!
@@ -76,15 +74,14 @@ export default function InfoKidsView() {
             <section
                 className="w-full max-w-6xl mx-auto px-4 py-8 relative z-10"
                 data-aos="fade-up"
-                data-aos-duration="800"
+                data-aos-duration="400"
             >
-                <h2 className="text-[#568A97] text-3xl font-bold text-center mb-8">Things You'll Learn!</h2>
-
+                <h2 className="text-gray-700 text-2xl sm:text-3xl font-bold text-center mb-8 -mt-4">Things You'll Learn</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {topics.map((item, idx) => (
                         <div
                             key={idx}
-                            className="rounded-xl shadow-md p-6 flex flex-col items-center text-center bg-white/20 backdrop-blur-md transition duration-500 hover:scale-105 hover:bg-white/60"
+                            className="rounded-xl shadow-md p-6 flex flex-col items-center text-center bg-white/40 backdrop-blur-md transition duration-300 hover:scale-105 hover:bg-white/70"
                             data-aos="fade-up"
                             data-aos-delay={`${idx * 100}`}
                         >
