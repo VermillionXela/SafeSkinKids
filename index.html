@@ -12,6 +12,17 @@
 </head>
 
 <body>
+  <script>
+    (function(l) {
+      if (l.search && l.search.startsWith('?/')) {
+        var url = l.search.slice(2).split('&')
+          .map(function(s){ return s.replace(/~and~/g,'&') })
+          .join('?');
+        window.history.replaceState(null, null, l.pathname + (url ? '?' + url : '') + l.hash);
+      }
+    })(window.location);
+  </script>
+  
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
