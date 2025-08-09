@@ -11,6 +11,7 @@ import { HomeView } from './views/HomeView'
 import { ContactView } from './views/ContactView'
 import { TeamView } from './views/TeamView'
 import {InfoParentsView} from './views/InfoParentsView'
+import { VolunteerView } from './views/VolunteerView'
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/contact" element={<ContactView />} />
           <Route path="/team" element={<TeamView />} />
           <Route path="/infoparents" element={<InfoParentsView />} />
+          <Route path="/volunteer" element={<VolunteerView />} />
         </Routes>
       </main>
     </>

@@ -38,7 +38,7 @@ export const InfoKidsView = () => {
         <div className="relative flex flex-col items-center bg-[#F0E9D8] overflow-hidden min-h-screen">
             <section className="w-full max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-end gap-6 px-4 pb-8 pt-12 relative z-10 animate-[fade-in_1.5s_ease-out]">
                 <div className="flex-1 text-center md:text-center">
-                    <h1 className="text-[#947D9E] text-2xl sm:text-4xl lg:text-5xl font-bold whitespace-nowrap mb-6 -mt-4">
+                    <h1 className="text-[#947D9E] text-2xl sm:text-2xl lg:text-4xl font-semibold whitespace-nowrap mb-6 -mt-4">
                         Welcome to <span className="whitespace-nowrap">Safe Skin Kids!</span>
                     </h1>
 
@@ -76,7 +76,7 @@ export const InfoKidsView = () => {
                 data-aos="fade-up"
                 data-aos-duration="400"
             >
-                <h2 className="text-gray-700 text-2xl sm:text-3xl font-bold text-center mb-8 -mt-4">Things You'll Learn</h2>
+                <h2 className="text-gray-700 text-xl sm:text-2xl font-semibold text-center mb-8 -mt-5">Things You'll Learn</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {topics.map((item, idx) => (
                         <div

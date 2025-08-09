@@ -20,7 +20,7 @@ export const InfoParentsView = () => {
                         ${isImageLoaded ? 'opacity-100' : 'opacity-0'}`}
                 />
 
-                <div className="absolute top-5 left-8 w-[85%] sm:left-20 sm:w-[75%] md:left-24 md:w-[65%] md:max-w-2xl">
+                <div className="absolute top-4 left-8 w-[85%] sm:left-20 sm:w-[75%] md:left-24 md:w-[65%] md:max-w-2xl">
                     <p
                         className="text-md sm:text-xl md:text-3xl lg:text-4xl text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)] pt-5 sm:pt-5 md:pt-5"
                         data-aos="fade-up"
@@ -31,14 +31,14 @@ export const InfoParentsView = () => {
                         and self-esteem.
                     </p>
                 </div>
-                <div className="absolute bottom-0 left-0 w-full h-6 bg-gradient-to-b from-transparent to-[#F0E9D8] pointer-events-none" />
+                <div className="absolute bottom-0 left-0 w-full h-8 bg-gradient-to-b from-transparent to-[#F0E9D8] pointer-events-none" />
             </div>
 
             <main className="w-full max-w-[75%] px-4 py-10 text-gray-800 space-y-16">
                 <section
                     data-aos="fade-up"
                     data-aos-duration="400">
-                    <h1 className="text-2xl font-bold mb-4 text-[#947D9E]">
+                    <h1 className="text-center text-3xl sm:text-3xl font-semibold mb-4 -mt-4 text-gray-700">
                         What is Safe Skin Kids?
                     </h1>
                     <p className="leading-relaxed">
@@ -51,14 +51,14 @@ export const InfoParentsView = () => {
                     </p>
                 </section>
 
-                <div className="flex flex-col lg:flex-row lg:space-x-6 space-y-6 lg:space-y-0 justify-center items-start">
+                <div className="flex flex-col lg:flex-row lg:space-x-6 space-y-6 lg:space-y-0 -mt-8 justify-center items-start">
                     <section
                         data-aos="fade-up"
                         data-aos-delay="100"
                         data-aos-duration="400"
                         className="bg-white/70 rounded-2xl shadow-md p-6 w-full lg:w-1/2"
                     >
-                        <h2 className="text-xl font-bold mb-4 text-[#947D9E] text-center">
+                        <h2 className="text-xl font-semibold mb-4 text-[#947D9E] text-center">
                             What the Program Covers
                         </h2>
                         <ul className="list-disc list-inside space-y-2">
@@ -77,7 +77,7 @@ export const InfoParentsView = () => {
                         data-aos-duration="400"
                         className="bg-white/70 rounded-2xl shadow-md p-6 w-full lg:w-1/2"
                     >
-                        <h2 className="text-xl font-bold mb-4 text-[#947D9E] text-center">
+                        <h2 className="text-xl font-semibold mb-4 text-[#947D9E] text-center">
                             What Parents Can Expect
                         </h2>
                         <ul className="list-disc list-inside space-y-2">
@@ -97,7 +97,7 @@ export const InfoParentsView = () => {
                     data-aos-duration="600"
                     className="bg-white/70 rounded-2xl shadow-md p-6 max-w-3xl mx-auto -mt-9"
                 >
-                    <h2 className="text-xl font-bold mb-4 text-[#947D9E] text-center">
+                    <h2 className="text-xl font-semibold mb-4 text-[#947D9E] text-center">
                         Benefits for Your Child
                     </h2>
                     <ul className="list-disc list-inside space-y-2">

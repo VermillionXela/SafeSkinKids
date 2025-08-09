@@ -1,5 +1,6 @@
 import { useState } from "react"
 import SSKHome from "../assets/SSK-home.jpg"
+import { Link } from 'react-router-dom'
 
 export const HomeView = () => {
 
@@ -34,11 +35,11 @@ export const HomeView = () => {
                 <div className="absolute bottom-0 left-0 w-full h-4 sm:h-4 bg-gradient-to-b from-transparent to-[#F0E9D8] pointer-events-none"></div>
             </div>
 
-            <main className="w-full max-w-4xl px-4 py-10 text-gray-700 space-y-10">
+            <main className="max-w-5xl w-full mx-auto px-4 py-10 text-gray-700 space-y-10">
                 <section
                     data-aos="fade-up"
                     data-aos-duration="400">
-                    <h1 className="text-2xl font-bold mb-2 -mt-4">About the Program</h1>
+                    <h1 className="text-2xl font-semibold mb-2 -mt-4">About the Program</h1>
                     <p className="text-base  leading-relaxed -mb-2">
                         Safe Skin Kids is a UCSF student-led initiative that teaches students about skin,
                         hair, and nail health through hands-on lessons and interactive activities. Created
@@ -53,38 +54,38 @@ export const HomeView = () => {
                     data-aos="fade-up"
                     data-aos-delay="200"
                     data-aos-duration="400">
-                    <h2 className="text-2xl font-bold mb-3">What We Teach</h2>
+                    <h2 className="text-2xl font-semibold mb-3">What We Teach</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                         {[
-                            { icon: "🧒", title: "Skin Structure and Function", color: "bg-[#568A97]" },
-                            { icon: "🧴", title: "Sun Protection and Safety", color: "bg-[#947D9E]" },
-                            { icon: "💇‍♀️", title: "Hair & Scalp Care", color: "bg-[#D5C6B9]" },
-                            { icon: "🧼", title: "Skin Health (Acne, Eczema & more)", color: "bg-[#D5C6B9]" },
-                            { icon: "💅", title: "Nail Care", color: "bg-[#568A97]" },
-                            { icon: "🌈", title: "Confidence & Kindness", color: "bg-[#947D9E]" }
+                            { icon: "🧒", title: "Skin Structure and Function", color: "bg-[#568A97]/80" },
+                            { icon: "🧴", title: "Sun Protection and Safety", color: "bg-[#947D9E]/80" },
+                            { icon: "💇‍♀️", title: "Hair & Scalp Care", color: "bg-[#D5C6B9]/80" },
+                            { icon: "🧼", title: "Skin Health (Acne, Eczema & more)", color: "bg-[#D5C6B9]/80" },
+                            { icon: "💅", title: "Nail Care", color: "bg-[#568A97]/80" },
+                            { icon: "🌈", title: "Confidence & Kindness", color: "bg-[#947D9E]/80" }
                         ].map((item, idx) => (
                             <div
                                 key={idx}
-                                className={`${item.color} rounded-xl shadow-md p-4 flex flex-col items-center justify-center text-center  gap-2 h-28  transition-transform duration-300 hover:scale-[1.02]`}
+                                className={`${item.color} rounded-xl shadow-lg p-4 flex flex-col items-center justify-center text-center  gap-2 h-28  transition-transform duration-300 hover:scale-[1.02]`}
                                 data-aos="fade-up"
                                 data-aos-delay={idx * 100}
                             >
                                 <div className="text-3xl">{item.icon}</div>
-                                <div className="font-semibold text-sm sm:text-base">{item.title}</div>
+                                <div className=" text-gray-800 font-semibold text-sm sm:text-base">{item.title}</div>
                             </div>
                         ))}
                     </div>
                 </section>
-                
+
                 <div className="relative w-full mt-5">
                     <div className="absolute inset-0 bg-gradient-to-br from-[#F0E9D8] via-[#D5C6B9] to-[#947D9E] animate-gradient opacity-60 pointer-events-none blur-sm" aria-hidden="true" />
-                    <div className="relative z-10 w-full max-w-2xl mx-auto space-y-10 py-8">
+                    <div className="relative z-10 w-full max-w-none mx-auto space-y-10 py-8">
                         <section
                             data-aos="fade-up"
                             data-aos-delay="200"
                             data-aos-duration="500"
                             className="text-center">
-                            <h2 className="text-2xl font-bold mb-2">Partnerships</h2>
+                            <h2 className="text-2xl font-semibold mb-2">Partnerships</h2>
                             <h3 className="font-semibold text-base">Current Partners</h3>
                             <ul className="list-disc list-inside text-center mb-4">
                                 <li>Telegraph Hill Neighborhood Center</li>
@@ -102,13 +103,18 @@ export const HomeView = () => {
                             data-aos-delay="200"
                             data-aos-duration="400"
                             className="text-center">
-                            <h2 className="text-2xl font-bold -mt-4 mb-2">Get Involved</h2>
+                            <h2 className="text-2xl font-semibold -mt-4 mb-2">Get Involved</h2>
                             <p className="text-base mb-2">
                                 Want to bring Safe Skin Kids to your school or volunteer with us?
                             </p>
-                            <a href="mailto:safeskin@ucsf.edu" className="text-blue-700 underline">
-                                Email us at: safeskin@ucsf.edu
-                            </a>
+                            <div className="flex flex-col items-center space-y-2">
+                                <Link to="/volunteer" className="text-blue-700 underline">
+                                    Volunteer Info
+                                </Link>
+                                <Link to="/contact" className="text-blue-700 underline">
+                                    Contact Us
+                                </Link>
+                            </div>
                         </section>
                     </div>
                 </div>

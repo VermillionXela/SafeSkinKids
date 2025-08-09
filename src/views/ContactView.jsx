@@ -7,7 +7,7 @@ export const ContactView = () => {
             <div className="max-w-2xl text-center mb-10"
                 data-aos="fade-up"
                 data-aos-duration="400">
-                <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
+                <h1 className="text-3xl font-semibold text-gray-700 mb-4">Contact Us</h1>
                 <p className="text-base sm:text-lg leading-relaxed">
                     Have questions about the program? Want to bring Safe Skin Kids to your school or volunteer with us?
                 </p>
