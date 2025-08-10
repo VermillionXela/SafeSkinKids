@@ -40,7 +40,7 @@ export const HomeView = () => {
                     data-aos="fade-up"
                     data-aos-duration="400">
                     <h1 className="text-2xl font-semibold mb-2 -mt-4">About the Program</h1>
-                    <p className="text-base  leading-relaxed -mb-2">
+                    <p className="text-base  leading-relaxed -mb-4">
                         Safe Skin Kids is a UCSF student-led initiative that teaches students about skin,
                         hair, and nail health through hands-on lessons and interactive activities. Created
                         and run by medical students at UCSF School of Medicine, the program introduces
@@ -71,13 +71,13 @@ export const HomeView = () => {
                                 data-aos-delay={idx * 100}
                             >
                                 <div className="text-3xl">{item.icon}</div>
-                                <div className=" text-gray-800 font-semibold text-sm sm:text-base">{item.title}</div>
+                                <div className=" text-gray-700 font-semibold text-base sm:text-base">{item.title}</div>
                             </div>
                         ))}
                     </div>
                 </section>
 
-                <div className="relative w-full mt-5">
+                <div className="relative w-full mt-2">
                     <div className="absolute inset-0 bg-gradient-to-br from-[#F0E9D8] via-[#D5C6B9] to-[#947D9E] animate-gradient opacity-60 pointer-events-none blur-sm" aria-hidden="true" />
                     <div className="relative z-10 w-full max-w-none mx-auto space-y-10 py-8">
                         <section

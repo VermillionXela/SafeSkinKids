@@ -31,7 +31,7 @@ export const VolunteerView = () => {
 
     return (
         <div className="min-h-screen px-6 py-10 md:py-14">
-            <main className="max-w-5xl w-full mx-auto text-gray-700 space-y-8 md:space-y-10 -mt-6">
+            <main className="max-w-5xl w-full mx-auto text-gray-700 space-y-8 md:space-y-10 -mt-4">
                 <section
                     className="space-y-3"
                     data-aos="fade-up"
@@ -48,11 +48,11 @@ export const VolunteerView = () => {
                 </section>
 
                 <section
-                    className="grid md:grid-cols-2 gap-5 items-stretch"
+                    className="grid md:grid-cols-2 gap-4 items-stretch"
                     data-aos="fade-up"
                     data-aos-duration="500"
                 >
-                    <div className="bg-white/70 rounded-2xl shadow-md p-6 md:p-7 h-full flex flex-col">
+                    <div className="bg-white/70 rounded-2xl shadow-md p-4 md:p-7 h-full flex flex-col">
                         <h2 className="text-xl font-semibold text-[#947D9E] text-center mb-3">
                             Who Can Volunteer?
                         </h2>
@@ -68,7 +68,7 @@ export const VolunteerView = () => {
                             Time &amp; Commitment
                         </h2>
                         <div className="flex-1 flex items-center">
-                            <p className="leading-relaxed text-center w-full -mt-4">
+                            <p className="leading-relaxed text-center w-full mt-1">
                                 Roles range from one-off sessions to an 8-week series. Most on-site sessions are 60–90 minutes.
                                 Remote roles are flexible and can be done on your own schedule.
                             </p>
@@ -80,7 +80,7 @@ export const VolunteerView = () => {
                     className="mt-10"
                     data-aos="fade-up"
                     data-aos-duration="450">
-                    <h2 className="text-xl md:text-2xl font-semibold text-center text-gray-700 mb-4">
+                    <h2 className="text-xl md:text-2xl font-semibold text-center text-gray-700 mb-4 -mt-2">
                         Volunteer Roles
                     </h2>
                     <p className="text-center leading-relaxed mb-6">

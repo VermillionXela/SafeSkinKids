@@ -38,7 +38,7 @@ export const TeamView = () => {
         {
             id: 4,
             name: 'Miranda Chen',
-            role: 'Placeholder text',
+            role: 'Lead Instructor',
             description: `Hi everyone! I'm Miranda, a first-year medical student at UCSF who is originally from Palo Alto, CA and one of the lead instructors for Safe Skin Kids this year.\n
             I was motivated to join SSK because of my overlapping interests in dermatology, health equity, community engagement, and education and mentorship. As someone who has always been passionate about teaching as a way to empower others, I am excited to deliver meaningful, relevant, and accessible education on skin health, especially for young and adolescent individuals whose self-identities and self-confidence can rapidly change. I hope to teach students to feel more confident in their own skin and to have the tools to take better care of their skin throughout their lives.`,
             image: mirandaImg,

@@ -34,13 +34,14 @@ export const InfoParentsView = () => {
                 <div className="absolute bottom-0 left-0 w-full h-8 bg-gradient-to-b from-transparent to-[#F0E9D8] pointer-events-none" />
             </div>
 
-            <main className="w-full max-w-[75%] px-4 py-10 text-gray-800 space-y-16">
+            <main className="w-full max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-10 text-gray-700 space-y-12">
                 <section
                     data-aos="fade-up"
                     data-aos-duration="400">
-                    <h1 className="text-center text-3xl sm:text-3xl font-semibold mb-4 -mt-4 text-gray-700">
+                    <h1 className="whitespace-nowrap leading-tight text-2xl sm:text-2xl font-semibold mb-4 -mt-4">
                         What is Safe Skin Kids?
                     </h1>
+
                     <p className="leading-relaxed">
                         Safe Skin Kids is a free, UCSF medical
                         student-led afterschool program that teaches children ages 8 to 13
@@ -51,17 +52,17 @@ export const InfoParentsView = () => {
                     </p>
                 </section>
 
-                <div className="flex flex-col lg:flex-row lg:space-x-6 space-y-6 lg:space-y-0 -mt-8 justify-center items-start">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 -mt-4 items-stretch">
                     <section
                         data-aos="fade-up"
                         data-aos-delay="100"
                         data-aos-duration="400"
-                        className="bg-white/70 rounded-2xl shadow-md p-6 w-full lg:w-1/2"
+                        className="bg-white/70 rounded-2xl shadow-md p-6 sm:p-6 h-full flex flex-col"
                     >
                         <h2 className="text-xl font-semibold mb-4 text-[#947D9E] text-center">
                             What the Program Covers
                         </h2>
-                        <ul className="list-disc list-inside space-y-2">
+                        <ul className="list-disc list-inside space-y-2 flex-grow">
                             <li>Sun safety and melanin education</li>
                             <li>Common skin conditions (e.g., acne, eczema, scars)</li>
                             <li>Hair and scalp care for all textures</li>
@@ -75,12 +76,12 @@ export const InfoParentsView = () => {
                         data-aos="fade-up"
                         data-aos-delay="200"
                         data-aos-duration="400"
-                        className="bg-white/70 rounded-2xl shadow-md p-6 w-full lg:w-1/2"
+                        className="bg-white/70 rounded-2xl shadow-md p-6 sm:p-6 h-full flex flex-col"
                     >
                         <h2 className="text-xl font-semibold mb-4 text-[#947D9E] text-center">
                             What Parents Can Expect
                         </h2>
-                        <ul className="list-disc list-inside space-y-2">
+                        <ul className="list-disc list-inside space-y-2 flex-grow">
                             <li>8 weekly sessions</li>
                             <li>Taught by UCSF medical students and future doctors</li>
                             <li>Held at UCSF or school/community sites</li>
@@ -95,7 +96,7 @@ export const InfoParentsView = () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                     data-aos-duration="600"
-                    className="bg-white/70 rounded-2xl shadow-md p-6 max-w-3xl mx-auto -mt-9"
+                    className="bg-white/70 rounded-2xl shadow-md p-6 max-w-3xl mx-auto -mt-5"
                 >
                     <h2 className="text-xl font-semibold mb-4 text-[#947D9E] text-center">
                         Benefits for Your Child
