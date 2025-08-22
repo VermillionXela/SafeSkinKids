@@ -3,6 +3,7 @@
 @import "tailwindcss";
 
 @theme {
+    --font-sans: "Poppins", sans-serif;
     --font-poppins: "Poppins", sans-serif;
 
     --color-purpleMuted-500: #947D9E;
@@ -45,4 +46,8 @@
 body {
     background-color: var(--color-offWhite-500);
     font-family: var(--font-poppins);
+}
+
+#root, #root * {
+    font-family: var(--font-sans) !important;
 }
