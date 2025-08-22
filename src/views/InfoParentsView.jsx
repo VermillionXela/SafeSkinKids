@@ -20,7 +20,7 @@ export const InfoParentsView = () => {
                         ${isImageLoaded ? 'opacity-100' : 'opacity-0'}`}
                 />
 
-                <div className="absolute z-10 bottom-8 left-8 w-[100%] sm:left-12 md:bottom-12 md:left-12 lg:left-24 lg:bottom-14">
+                <div className="absolute z-10 bottom-8 left-4 w-[100%] sm:left-12 md:bottom-12 md:left-12 lg:left-24 lg:bottom-14">
                     <p
                         className="text-md sm:text-md md:text-2xl lg:text-3xl text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)] pt-5 sm:pt-5 md:pt-5"
                         data-aos="fade-up"

@@ -46,8 +46,7 @@ export const HomeView = () => {
                     className={`w-full object-cover max-h-[600px] transition-opacity duration-700 
                         ${isImageLoaded ? "opacity-100" : "opacity-0"}`}
                 />
-                <div className="absolute top-5 left-4 w-[85%] sm:left-8 sm:w-[65%] md:left-10 md:w-[60%] md:max-w-2xl">
-
+                <div className="absolute top-5 left-2 w-[85%] sm:left-8 sm:w-[65%] md:left-10 md:w-[60%] md:max-w-2xl">
                     <p
                         className="text-lg sm:text-3xl md:text-4xl lg:text-5xl mt-3 font-bold leading-tight text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)]"
                         data-aos="fade-up"
