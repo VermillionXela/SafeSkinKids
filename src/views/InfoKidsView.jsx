@@ -36,7 +36,10 @@ export const InfoKidsView = () => {
 
     return (
         <div className="relative flex flex-col items-center bg-[#F0E9D8] overflow-hidden min-h-screen">
-            <section className="w-full max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-end gap-6 px-4 pb-8 pt-12 relative z-10 animate-[fade-in_1.5s_ease-out]">
+            <section 
+                className="w-full max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-end gap-6 px-4 pb-8 pt-12 relative z-10"
+                data-aos="fade-up"
+                data-aos-duration="300">
                 <div className="flex-1 text-center md:text-center">
                     <h1 className="text-[#947D9E] text-2xl sm:text-2xl lg:text-4xl font-semibold whitespace-nowrap mb-6 -mt-4">
                         Fun, Science, and Self-Care!
@@ -83,7 +86,7 @@ export const InfoKidsView = () => {
                             key={idx}
                             className="rounded-xl shadow-md p-6 flex flex-col items-center text-center bg-white/40 backdrop-blur-md transition duration-300 hover:scale-105 hover:bg-white/70 h-full min-h-[240px]"
                             data-aos="fade-up"
-                            data-aos-delay={`${idx * 100}`}
+                            data-aos-delay={`${idx * 50}`}
                         >
                             <div className="text-4xl mb-3">{item.icon}</div>
                             <h3 className="font-semibold text-lg mb-2">{item.title}</h3>

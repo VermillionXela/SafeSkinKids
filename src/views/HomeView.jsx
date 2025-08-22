@@ -62,8 +62,7 @@ export const HomeView = () => {
 
             <main className="max-w-5xl w-full mx-auto px-4 py-10 text-gray-700 space-y-10">
                 <section
-                    data-aos="fade-up"
-                    data-aos-duration="400">
+                    data-aos="fade-up">
                     <h1 className="text-2xl font-semibold mb-2 -mt-4">About the Program</h1>
                     <div className="text-base space-y-4 leading-relaxed -mb-6">
                         <p>
@@ -80,8 +79,6 @@ export const HomeView = () => {
 
                 <section
                     data-aos="fade-up"
-                    data-aos-delay="200"
-                    data-aos-duration="400"
                 >
                     <h2 className="text-2xl font-semibold mb-3">What We Teach</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -90,7 +87,7 @@ export const HomeView = () => {
                             color="bg-[#568A97]/80"
                             title="Skin Structure and Function"
                             titleUrl="https://www.aad.org/public/public-health/good-skin-knowledge/lesson-plans/intro-to-skin"
-                            delay={0}
+                            delay={50}
                         />
 
                         <TeachCard
@@ -98,7 +95,7 @@ export const HomeView = () => {
                             color="bg-[#947D9E]/80"
                             title="Sun Protection and Safety"
                             titleUrl="https://www.aad.org/public/public-health/good-skin-knowledge/lesson-plans/sun-safety"
-                            delay={100}
+                            delay={150}
                         />
 
                         <TeachCard
@@ -114,7 +111,7 @@ export const HomeView = () => {
                             color="bg-[#568A97]/80"
                             title="Hair & Scalp Care"
                             titleUrl="https://www.aad.org/public/public-health/good-skin-knowledge/lesson-plans/healthy-hair-and-nails"
-                            delay={300}
+                            delay={250}
                         />
 
                         <TeachCard
@@ -122,13 +119,13 @@ export const HomeView = () => {
                             color="bg-[#947D9E]/80"
                             title="Nail Care"
                             titleUrl="https://www.aad.org/public/public-health/good-skin-knowledge/lesson-plans/healthy-hair-and-nails"
-                            delay={400}
+                            delay={300}
                         />
 
                         <TeachCard
                             icon="🧼"
                             color="bg-[#D5C6B9]/80"
-                            delay={500}
+                            delay={350}
                             titleNode={
                                 <span>
                                     Skin Health (
@@ -159,7 +156,7 @@ export const HomeView = () => {
                             color="bg-[#568A97]/80"
                             title="Bug Bites and Poisonous Plants"
                             titleUrl="https://www.aad.org/public/public-health/good-skin-knowledge/lesson-plans/bug-bites-poisonous-plants"
-                            delay={600}
+                            delay={400}
                         />
 
                         <TeachCard
@@ -167,7 +164,7 @@ export const HomeView = () => {
                             color="bg-[#947D9E]/80"
                             title="Confidence and Kindness"
                             titleUrl="https://www.aad.org/public/public-health/good-skin-knowledge/lesson-plans/love-your-skin"
-                            delay={700}
+                            delay={450}
                         />
                     </div>
                 </section>
@@ -179,8 +176,7 @@ export const HomeView = () => {
                     <div className="relative z-10 w-full max-w-none mx-auto space-y-10 py-8">
                         <section
                             data-aos="fade-up"
-                            data-aos-delay="200"
-                            data-aos-duration="500"
+                            data-aos-duration="400"
                             className="text-center">
                             <h2 className="text-2xl font-semibold mb-2">Partnerships</h2>
                             <h3 className="font-semibold text-base">Current Partners</h3>
@@ -197,8 +193,8 @@ export const HomeView = () => {
 
                         <section
                             data-aos="fade-up"
-                            data-aos-delay="200"
-                            data-aos-duration="400"
+                            data-aos-delay="500"
+                            data-aos-duration="200"
                             className="text-center">
                             <h2 className="text-2xl font-semibold -mt-4 mb-2">Get Involved</h2>
                             <p className="text-base mb-2">

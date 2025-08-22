@@ -20,7 +20,7 @@ export const InfoParentsView = () => {
                         ${isImageLoaded ? 'opacity-100' : 'opacity-0'}`}
                 />
 
-                <div className="absolute z-10 bottom-8 left-4 w-[100%] sm:left-12 md:bottom-12 md:left-12 lg:left-24 lg:bottom-14">
+                <div className="absolute z-10 bottom-6 left-2 w-[100%] sm:left-12 md:bottom-12 md:left-12 lg:left-24 lg:bottom-14">
                     <p
                         className="text-md sm:text-md md:text-2xl lg:text-3xl text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)] pt-5 sm:pt-5 md:pt-5"
                         data-aos="fade-up"
@@ -57,7 +57,6 @@ export const InfoParentsView = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 -mt-4 items-stretch">
                     <section
                         data-aos="fade-up"
-                        data-aos-delay="100"
                         data-aos-duration="400"
                         className="bg-white/70 rounded-2xl shadow-md p-6 sm:p-6 h-full flex flex-col"
                     >
@@ -76,7 +75,6 @@ export const InfoParentsView = () => {
 
                     <section
                         data-aos="fade-up"
-                        data-aos-delay="200"
                         data-aos-duration="400"
                         className="bg-white/70 rounded-2xl shadow-md p-6 sm:p-6 h-full flex flex-col"
                     >
@@ -96,8 +94,7 @@ export const InfoParentsView = () => {
 
                 <section
                     data-aos="fade-up"
-                    data-aos-delay="300"
-                    data-aos-duration="600"
+                    data-aos-duration="400"
                     className="bg-white/70 rounded-2xl shadow-md p-6 max-w-3xl mx-auto -mt-5"
                 >
                     <h2 className="text-xl font-semibold mb-4 text-[#947D9E] text-center">

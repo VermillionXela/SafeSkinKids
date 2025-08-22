@@ -17,7 +17,7 @@ import { VolunteerView } from './views/VolunteerView'
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 280,
       once: true
     })
   }, [])

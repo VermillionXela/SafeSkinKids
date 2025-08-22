@@ -35,7 +35,7 @@ export const VolunteerView = () => {
                 <section
                     className="space-y-3"
                     data-aos="fade-up"
-                    data-aos-duration="450">
+                    data-aos-duration="200">
                     <h1 className="text-2xl md:text-3xl font-semibold text-center mb-4">Volunteer with us!</h1>
                     <p className="font-semibold text-center text-md sm:text-lg md:text-lg">
                         Interested in education, equity, or dermatology? Join Safe Skin Kids and help inspire the next generation.
@@ -50,7 +50,7 @@ export const VolunteerView = () => {
                 <section
                     className="grid md:grid-cols-2 gap-4 items-stretch"
                     data-aos="fade-up"
-                    data-aos-duration="500"
+                    data-aos-duration="250"
                 >
                     <div className="bg-white/70 rounded-2xl shadow-md p-4 md:p-7 h-full flex flex-col">
                         <h2 className="text-xl font-semibold text-[#947D9E] text-center mb-3">
@@ -79,7 +79,7 @@ export const VolunteerView = () => {
                 <section
                     className="mt-10"
                     data-aos="fade-up"
-                    data-aos-duration="450">
+                    data-aos-duration="300">
                     <h2 className="text-xl md:text-2xl font-semibold text-center text-gray-700 mb-4 -mt-2">
                         Volunteer Roles
                     </h2>
@@ -93,7 +93,7 @@ export const VolunteerView = () => {
                                 className=" bg-[#947D9E]/60 text-gray-800 rounded-2xl shadow-lg w-full sm:w-[320px] lg:w-[340px] h-[230px] md:h-[250px] p-4 md:p-4 flex flex-col text-center"
                                 data-aos="fade-up"
                                 data-aos-duration="400"
-                                data-aos-delay={`${idx * 75}`}
+                                data-aos-delay={`${idx * 50}`}
                             >
                                 <h3 className="text-lg font-semibold mb-3 mt-4">{role.title}</h3>
                                 <div className="flex-1 flex items-center">
