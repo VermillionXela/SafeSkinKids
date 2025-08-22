@@ -46,46 +46,41 @@ export const TeamView = () => {
     ]
 
     return (
-        <section className="min-h-screen px-6 py-12 md:py-20 -mt-4">
-            <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-8">
-                <div className="w-full md:w-[26rem] text-center md:text-left md:sticky md:top-20 self-start">
-                    <h1 className="text-2xl sm:text-3xl font-semibold text-gray-700 pb-4 pt-2">
-                        Meet Our Team
-                    </h1>
-                    <p className="text-base text-gray-700 leading-relaxed">
-                        We’re UCSF medical students on a mission <br />
-                        to help kids love the skin they’re in.
-                    </p>
-                </div>
+        <section className="min-h-screen px-6 py-10 -mt-4">
+            <div className="max-w-5xl mx-auto text-center">
+                <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold text-gray-700 pb-4">
+                    Meet Our Team
+                </h1>
+                <p className="text-base text-gray-700 leading-relaxed max-w-2xl mx-auto">
+                    We’re UCSF medical students on a mission <br />
+                    to help kids love the skin they’re in.
+                </p>
+            </div>
 
-                <div className="md:w-2/3 md:order-2 order-2 space-y-10 pr-2">
-                    {teamMembers.map((member) => (
-                        <div
-                            key={member.id}
-                            className="flex flex-col items-center md:items-stretch md:flex-row gap-6 border-b border-gray-400/40 pb-6 md:h-64"
-                            data-aos="fade-up"
-                            data-aos-duration="500"
-                        >
-                            <img
-                                src={member.image}
-                                alt={member.name}
-                                className="rounded-lg w-40 h-56 object-cover shrink-0"
-                            />
-                            <div className="flex-1 min-w-0 flex flex-col md:text-left text-center">
-                                <div className="mb-2">
-                                    <h3 className="font-semibold text-lg text-[#947D9E]">{member.name}</h3>
-                                    <p className="text-sm text-gray-500">{member.role}</p>
-                                </div>
-
-                                <div className="flex-1 min-h-0 md:overflow-y-auto md:pr-3 md:[scrollbar-gutter:stable]">
-                                    <p className="text-sm text-gray-600 whitespace-pre-line">
-                                        {member.description}
-                                    </p>
-                                </div>
-                            </div>
+            <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 max-w-5xl mx-auto">
+                {teamMembers.map((member) => (
+                    <div
+                        key={member.id}
+                        className="flex flex-col md:flex-row items-center md:items-start gap-4 rounded-2xl border border-gray-400/40 bg-white/50 p-6 md:p-4 shadow-sm"
+                        data-aos="fade-up"
+                        data-aos-duration="500"
+                    >
+                        <img
+                            src={member.image}
+                            alt={member.name}
+                            className="rounded-lg w-40 h-56 md:w-28 md:h-40 lg:w-40 lg:h-56 object-cover"
+                        />
+                        <div className="flex-1 min-w-0 text-center md:text-left">
+                            <h3 className="font-semibold text-lg text-[#947D9E]">
+                                {member.name}
+                            </h3>
+                            <p className="text-sm text-gray-500">{member.role}</p>
+                            <p className="mt-3 text-sm text-gray-600 whitespace-pre-line md:max-h-40 md:overflow-y-auto md:pr-3 md:[scrollbar-gutter:stable]">
+                                {member.description}
+                            </p>
                         </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
             </div>
         </section>
     )

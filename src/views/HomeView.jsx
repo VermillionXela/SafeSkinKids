@@ -7,7 +7,7 @@ export const HomeView = () => {
     const [isImageLoaded, setIsImageLoaded] = useState(false)
     const TeachCard = ({ icon, color, title, titleUrl, titleNode, delay = 0 }) => (
         <div
-            className={`${color} rounded-xl shadow-lg p-4 flex flex-col items-center justify-center text-center gap-2 h-28 transition-transform duration-300 hover:scale-105`}
+            className={`${color} rounded-xl shadow-lg p-4 flex flex-col items-center justify-center text-center gap-2 h-28 transition-transform duration-200 hover:scale-105`}
             data-aos="fade-up"
             data-aos-delay={delay}
         >
@@ -46,9 +46,9 @@ export const HomeView = () => {
                     className={`w-full object-cover max-h-[600px] transition-opacity duration-700 
                         ${isImageLoaded ? "opacity-100" : "opacity-0"}`}
                 />
-                <div className="absolute top-5 left-2 w-[85%] sm:left-8 sm:w-[65%] md:left-10 md:w-[60%] md:max-w-2xl">
+                <div className="absolute top-4 left-1 w-[85%] sm:left-6 sm:w-[65%] md:left-6 md:w-[60%] md:max-w-2xl">
                     <p
-                        className="text-lg sm:text-3xl md:text-4xl lg:text-5xl mt-3 font-bold leading-tight text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)]"
+                        className="text-md sm:text-3xl md:text-4xl lg:text-5xl mt-3 font-bold leading-tight text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)]"
                         data-aos="fade-up"
                         data-aos-delay="300"
                         data-aos-duration="1000"
@@ -176,7 +176,7 @@ export const HomeView = () => {
                     <div className="relative z-10 w-full max-w-none mx-auto space-y-10 py-8">
                         <section
                             data-aos="fade-up"
-                            data-aos-duration="400"
+                            data-aos-duration="200"
                             className="text-center">
                             <h2 className="text-2xl font-semibold mb-2">Partnerships</h2>
                             <h3 className="font-semibold text-base">Current Partners</h3>
@@ -193,7 +193,7 @@ export const HomeView = () => {
 
                         <section
                             data-aos="fade-up"
-                            data-aos-delay="500"
+                            data-aos-delay="100"
                             data-aos-duration="200"
                             className="text-center">
                             <h2 className="text-2xl font-semibold -mt-4 mb-2">Get Involved</h2>

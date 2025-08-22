@@ -3,11 +3,11 @@ import { FaInstagram, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
 export const ContactView = () => {
 
     return (
-        <section className="w-full min-h-screen bg-[#f0e9d8] px-4 py-10 flex flex-col items-center -mt-4">
+        <section className="w-full min-h-screen bg-[#f0e9d8] px-6 py-10 flex flex-col items-center -mt-4">
             <div className="max-w-2xl text-center mb-10"
                 data-aos="fade-up"
                 data-aos-duration="200">
-                <h1 className="text-2xl font-semibold text-gray-700 mb-4">Contact Us</h1>
+                <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold text-gray-700 mb-4">Contact Us</h1>
                 <p className="text-base sm:text-lg leading-relaxed">
                     Have questions about the program? Want to bring Safe Skin Kids to your school or volunteer with us?
                 </p>

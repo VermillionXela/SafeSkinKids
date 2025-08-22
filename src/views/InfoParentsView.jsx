@@ -36,8 +36,7 @@ export const InfoParentsView = () => {
 
             <main className="w-full max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-10 text-gray-700 space-y-12">
                 <section
-                    data-aos="fade-up"
-                    data-aos-duration="400">
+                    data-aos="fade-up">
                     <h1 className="whitespace-nowrap leading-tight text-2xl sm:text-2xl font-semibold mb-4 -mt-4">
                         What is Safe Skin Kids?
                     </h1>
@@ -95,8 +94,7 @@ export const InfoParentsView = () => {
                 <section
                     data-aos="fade-up"
                     data-aos-duration="400"
-                    className="bg-white/70 rounded-2xl shadow-md p-6 max-w-3xl mx-auto -mt-5"
-                >
+                    className="bg-white/70 rounded-2xl shadow-md p-6 max-w-3xl mx-auto -mt-5">
                     <h2 className="text-xl font-semibold mb-4 text-[#947D9E] text-center">
                         Benefits for Your Child
                     </h2>

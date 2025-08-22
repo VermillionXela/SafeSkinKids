@@ -46,7 +46,9 @@ export const Navbar = () => {
             </div>
 
             {isMenuOpen && (
-                <ul className="flex flex-col gap-4 mt-4 text-sm font-medium px-6 md:hidden animate-fade-in">
+                <ul className="flex flex-col gap-4 mt-4 text-sm font-medium px-6 md:hidden"
+                data-aos="fade-in"
+                data-aos-duration="400">
                     {navLinks.map(link => (
                         <li key= {link.to}>
                             <NavLink

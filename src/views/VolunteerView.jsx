@@ -1,6 +1,5 @@
 
 export const VolunteerView = () => {
-
     const roles = [
         {
             title: "Rotating Instructor",
@@ -30,17 +29,17 @@ export const VolunteerView = () => {
     ]
 
     return (
-        <div className="min-h-screen px-6 py-10 md:py-14">
-            <main className="max-w-5xl w-full mx-auto text-gray-700 space-y-8 md:space-y-10 -mt-4">
+        <div className="min-h-screen px-6 py-10">
+            <main className="max-w-5xl w-full mx-auto text-gray-700 space-y-6 md:space-y-10 -mt-4">
                 <section
                     className="space-y-3"
                     data-aos="fade-up"
                     data-aos-duration="200">
-                    <h1 className="text-2xl md:text-3xl font-semibold text-center mb-4">Volunteer with us!</h1>
-                    <p className="font-semibold text-center text-md sm:text-lg md:text-lg">
+                    <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold text-center mb-4">Volunteer with us!</h1>
+                    <p className="font-semibold text-center text-lg sm:text-lg md:text-lg">
                         Interested in education, equity, or dermatology? Join Safe Skin Kids and help inspire the next generation.
                     </p>
-                    <p className="leading-relaxed text-center">
+                    <p className="text-base leading-relaxed text-center">
                         We’re welcoming passionate students who are excited about youth education, health equity, and skin science.
                         Whether you’re pre-health, pre-med, or simply care about youth and representation, we’d love to work with you.
                         Some roles are in-person, others are remote, and all contribute to making this program something special.
@@ -62,7 +61,6 @@ export const VolunteerView = () => {
                             <li>Students interested in dermatology, pediatrics, education, or health equity</li>
                         </ul>
                     </div>
-
                     <div className="bg-white/70 rounded-2xl shadow-md p-6 md:p-7 h-full flex flex-col">
                         <h2 className="text-xl font-semibold text-[#947D9E] text-center mb-3">
                             Time &amp; Commitment
@@ -90,9 +88,9 @@ export const VolunteerView = () => {
                         {roles.map((role, idx) => (
                             <div
                                 key={idx}
-                                className=" bg-[#947D9E]/60 text-gray-800 rounded-2xl shadow-lg w-full sm:w-[320px] lg:w-[340px] h-[230px] md:h-[250px] p-4 md:p-4 flex flex-col text-center"
+                                className=" bg-[#947D9E]/60 text-gray-800 rounded-2xl shadow-lg w-full sm:w-[320px] lg:w-[340px] h-[230px] md:h-[250px] p-2 md:p-4 flex flex-col text-center"
                                 data-aos="fade-up"
-                                data-aos-duration="400"
+                                data-aos-duration="200"
                                 data-aos-delay={`${idx * 50}`}
                             >
                                 <h3 className="text-lg font-semibold mb-3 mt-4">{role.title}</h3>

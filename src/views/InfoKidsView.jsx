@@ -45,7 +45,7 @@ export const InfoKidsView = () => {
                         Fun, Science, and Self-Care!
                     </h1>
 
-                    <div className="bg-white/70 backdrop-blur-md rounded-xl shadow-md p-6 md:p-8 text-gray-800 text-base leading-relaxed max-w-prose mx-auto md:mx-0">
+                    <div className="bg-white/70 backdrop-blur-md rounded-xl shadow-md p-4 md:p-8 text-gray-800 text-base leading-relaxed max-w-prose mx-auto md:mx-0">
                         <p className="mb-4">
                             Want to learn how to take care of your skin, hair, and nails? Join Safe Skin Kids,
                             where learning is hands-on, fun, and all about YOU!
@@ -64,7 +64,6 @@ export const InfoKidsView = () => {
                         </p>
                     </div>
                 </div>
-
                 <div className="flex-1 relative w-full max-w-md mx-auto md:mx-0">
                     <img
                         src={SSKBubbles}
@@ -75,11 +74,11 @@ export const InfoKidsView = () => {
             </section>
 
             <section
-                className="w-full max-w-6xl mx-auto px-4 py-8 relative z-10"
+                className="w-full max-w-6xl mx-auto px-4 py-4 relative z-10"
                 data-aos="fade-up"
                 data-aos-duration="400"
             >
-                <h2 className="text-gray-700 text-xl sm:text-2xl font-semibold text-center mb-8 -mt-5">Things You'll Learn</h2>
+                <h2 className="text-gray-700 text-xl sm:text-2xl font-semibold text-center mb-8 ">Things You'll Learn</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
                     {topics.map((item, idx) => (
                         <div
