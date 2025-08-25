@@ -1,5 +1,5 @@
 import { useState } from "react"
-import SSKHospital from "../assets/SSK-hospital.jpg"
+import SSKHospital from "../assets/SSK-hospital-cropped.jpg"
 import { Link } from 'react-router-dom'
 
 export const HomeView = () => {
