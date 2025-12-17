@@ -65,7 +65,8 @@ export const TeamView = () => {
             name: 'Sarai Ortega',
             role: 'Lead Instructor',
             description: `I am a first-year medical student at UCSF in PRIME-US (Program in Medical Education for the Urban Underserved).\n
-            I am from Camarillo, CA and grew up in a Mexican-Guatemalan household.\n I serve as a lead instructor for Safe Skin Kids and am excited to help create a positive learning environment for SSK students and instructors.`,
+            I am from Camarillo, CA and grew up in a Mexican-Guatemalan household.\n 
+            I serve as a lead instructor for Safe Skin Kids and am excited to help create a positive learning environment for SSK students and instructors.`,
             image: saraiImg,
         },
         {
@@ -94,7 +95,8 @@ export const TeamView = () => {
             name: 'Anuoluwa Ayeni',
             role: 'Classroom Instructor',
             description: `My name is Anuoluwa Ayeni, and I am a fourth-year medical student at UCSF.\n
-            I serve as an instructor with Safe Skin Kids. My interests include pediatric health disparities, pediatric dermatology, and any form of community involvement.\n
+            I serve as an instructor with Safe Skin Kids.\n
+            My interests include pediatric health disparities, pediatric dermatology, and any form of community involvement.\n
             I wanted to get involved with SSK because it combines two of my favorite things when it comes to medicine: kids & accessible education!`,
             image: anuoluwaImg,
         },
@@ -104,8 +106,11 @@ export const TeamView = () => {
             role: 'Classroom Instructor',
             description: `My name is Folahanmi Asebiomo, and I was born and raised in South Georgia before moving to California.\n
             I’m now an MS1 at UCSF medical school.\n
-            I love spending free time on my “granny hobbies” like baking, crocheting, and needlework;\n
-            I also love to hang out with friends and watch dramatic reality TV.`,
+            I love spending free time on my “granny hobbies” like baking, crocheting, and needlework.\n
+            I also love to hang out with friends and watch dramatic reality TV.\n
+            I wanted to get involved with Safe Skin Kids because I’ve personally struggled with skin issues, including stress-related eczema, and understand how much healthy skin can impact confidence and well-being.\n
+            As a Black woman, I’ve always cared deeply about hair, skin, and nail health, so it’s been really fun getting to teach kids about skincare and common conditions.\n
+            It’s been especially meaningful because I’ve always loved mentoring and teaching young people.`,
             image: folahanmiImg,
         }
     ]
